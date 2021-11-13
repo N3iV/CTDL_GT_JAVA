@@ -10,7 +10,7 @@ public class _88_MergeSortedArray {
 
     public static void insert(int x, int[] a, int m) {
         boolean isCheck = false;
-        for (int k = 0; k < m; k++) {
+        for (int k = 0; k <= m; k++) {
             if (a[k] > x) {
                 isCheck = true;
 
