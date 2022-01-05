@@ -7,7 +7,7 @@ public class _27_RemoveElement {
 
     public static int removeElement(int[] a, int val) {
         int n = a.length;
-
+        System.out.println(n);
         for (int i = 0; i < n;) {
             if (a[i] == val) {
                 // xoa a[i]
