@@ -44,10 +44,7 @@ public class MyArrayQueue implements IStackQueue {
 
     @Override
     public boolean isEmpty() {
-        if (headIdx == -1 && tailIdx == -1) {
-            return true;
-        }
-        return false;
+        return (headIdx == -1) && (tailIdx == -1);
     }
 
     @Override
